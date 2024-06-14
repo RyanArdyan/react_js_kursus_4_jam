@@ -1,0 +1,13 @@
+/* tujuan di buat nya .module.css adalah karena terkadang setiap komponent itu memiliki css yang berbeda jadi aku membuat .module.css */
+.button {
+    /* argument pertama adalah warna, argument kedua adalah  */
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    /* argument pertama adalah vertikal, argument kedua adalah horizontal */
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* bingkai tidak ada untuk menghapus border bawaan nya */
+    border: none;
+    /* kursor: penunjuk */
+    cursor: pointer;
+  }

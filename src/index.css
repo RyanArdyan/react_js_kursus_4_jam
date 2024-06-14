@@ -1,0 +1,45 @@
+.card {
+  /* untuk bikin bingkai setebal 1px, garis lurus dan berwarna abu-abu */
+  border: 1px solid gray;
+  /* untuk bikin sudut lengkung sebesar 10px */
+  border-radius: 10px;
+  /* untuk bikin banyangan kotak */
+  box-shadow: 5px 5px 5px grey;
+  /* kita buat ruang kosong diantara border dan konten di dalamnya */
+  /* 20px berarti jaraknya dan untuk keempat sisi yaitu T,R,B,L */
+  padding: 20px;
+  /* margin untuk mengatur ruang kosong diluar card dan untuk keempat sisi */
+  margin: 10px;
+  /* agar text berada ditengah */
+  /* penyelarasan-text: tengah */
+  text-align: center;
+  /* maksimal lebar nya, jadi biasanya kan lebar akan membesar ketika diubah dari hp ke pc */
+  max-width: 250px;
+  /* jadi karena .card adalah element div jadi dia bersifat block. jadi dia tidak bisa satu baris. jadi kita butuh inline-block agar card nya bisa satu baris */
+  display: inline-block;
+}
+
+/* panggil card-image yang berada di dalam .card */
+.card .card-image {
+  /* kita atur 60% dari lebar parent nya yaitu class card */
+  max-width: 60%;
+  height: auto;
+  /* agar sudut pada gambar nya melengkung */
+  border-radius: 8%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  /* kita akan mengganti kelaurga fontnya dan menyiapkan cadangan font jika font pertama tidak ada */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(77, 53, 148);
+}
+
+.card .card-text {
+  /* kita akan mengganti kelaurga fontnya dan menyiapkan cadangan font jika font pertama tidak ada */
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  color: grey;
+}
+

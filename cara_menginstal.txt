@@ -1,0 +1,6 @@
+1. npm create vite@latest
+2. masukkan nama project
+3. pilih framework yaitu react
+4. cd react_js_kursus_4_jam
+5. npm install
+6. npm run dev untuk menjalankan server nya seperti php artisan serve
