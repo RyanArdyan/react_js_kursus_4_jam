@@ -43,3 +43,18 @@
   color: grey;
 }
 
+.student {
+  /* keluarga font: argument pertama adalah font utama, argument kedua adalah font cadangan jika font utama tidak ada */
+  font-family: Arial, sans-serif;
+  /* ukuran 1em relatif terhadap ukuran font element induk. */
+  font-size: 2em;
+  /* padding adalah ruang kosong diantara border dan konten di dalam nya */
+  padding: 10px;
+  /* bingkai: ketebalan 1px, garis lurus dan warna */
+  border: 1px solid hsla(0, 81%, 43%, 0.8);
+}
+
+.student p {
+  /* menghapus margin pada element p */
+  margin: 0px;
+}

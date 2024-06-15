@@ -15,7 +15,8 @@ function Header() {
                     {/* to digunakan untuk menggantikan attribute href */}
                         <li><Link to="/">Tahap 1 - Perkenalan Project</Link></li>
                         <li><Link to="/tahap2">Tahap 2 - Mengenal className, mengimport gambar dan CSS</Link></li>
-                        <li><Link to="/tahap3">Tahap 3 - Mengenal </Link></li>
+                        <li><Link to="/tahap3">Tahap 3 - Mengenal .moduls.css untuk menggunakan css spesifik di suatu konten dan mengenal external css yang disimpan di index.css</Link></li>
+                        <li><Link to="/tahap4">Tahap 4 - Mengenal props dan validasi data kiriman pada props menggunakan proptypes</Link></li>
                     </ul>
                 </nav>
             </header>

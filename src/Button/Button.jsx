@@ -7,7 +7,7 @@ function Button() {
 
     // jika ingin membuat html maka gunakan return ()
     return (
-        // jika ingin mengimpor banyak dokument maka gunakan <><>
+        // jika ingin mengimpor banyak component maka gunakan <><>
         <>
         {/* styles berarti panggil css spesifik nya, button berarti panggil .button css nya.  */}
         {/* nama dari class nya akan unik. berikut adalah nama class nya: _button_4dh12_3 */}
